@@ -43,7 +43,7 @@ export async function POST (request: Request)  {
         const aiResponse = await fetch("https://ai-brain-six.vercel.app/api/evaluate-application", {
             method: "POST",
             headers: {
-                "Content-type": "applications/json"
+                "Content-type": "application/json"
             },
             body: JSON.stringify({answers})
         })
