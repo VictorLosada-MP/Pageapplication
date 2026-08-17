@@ -40,7 +40,7 @@ export async function POST (request: Request)  {
 
         // PARTE PARA IMPLEMENTAR IA Y QUE VALIDE LAS RESPUESTAS Y DE UN ESTADO
 
-        const aiResponse = await fetch("https://ai-brain-six.vercel.app/api/evaluate-application", {
+        const aiResponse = await fetch("https://ai-brain-seven-blond.vercel.app/api/evaluate-application", {
             method: "POST",
             headers: {
                 "Content-type": "application/json"
